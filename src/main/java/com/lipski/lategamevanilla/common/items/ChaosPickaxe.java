@@ -6,11 +6,12 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class ChaosPickaxe extends AxeItem {
+public class ChaosPickaxe extends PickaxeItem {
     public ChaosPickaxe(Tier p_42961_, int p_42962_, float p_42963_, Properties p_42964_) {
         super(p_42961_, p_42962_, p_42963_, p_42964_);
     }
